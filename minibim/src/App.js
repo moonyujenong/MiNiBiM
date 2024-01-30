@@ -1,13 +1,15 @@
+import style from '@style/reset.module.css';
+import Header from '@components/common/header';
+import Footer from '@components/common/Footer';
 
-import style from "@style/reset.module.css";
-import Header from "@components/common/header";
-
-function App() {  
+function App() {
   return (
-    <div className={style.app}>
+    <div className={style.wrap}>
       <Header />
+      <div className={style.contents}></div>
+      <Footer />
     </div>
   );
-} 
+}
 
 export default App;
