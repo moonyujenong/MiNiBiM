@@ -18,6 +18,10 @@ body {
   height: 100%;
 }
 
+body {
+  background-color: #141414;
+}
+
 .wrap {
   display: flex;
   flex-direction: column;
@@ -55,6 +59,15 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 /* Grouping content
@@ -367,8 +380,18 @@ template {
 
 button,
 a {
-  &:focus,
-  &:active {
-    outline: none;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+
+  &:focus, &:active {
+    outline: 0;
   }
+} 
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

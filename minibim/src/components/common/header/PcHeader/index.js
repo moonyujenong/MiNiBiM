@@ -1,9 +1,9 @@
-import style from "@style/common/header.module.css";
+import style from './index.module.css';
 
-function pcHeader () {
+function PcHeader () {
     return (
         <div className={style.container}>pc다</div>
     )
 }
  
-export default pcHeader;
+export default PcHeader;

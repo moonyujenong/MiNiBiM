@@ -1,7 +1,7 @@
 import style from './index.module.css';
 
-function footer() {
+function Footer() {
   return <footer class={style.container}>footer</footer>;
 }
 
-export default footer;
+export default Footer;
