@@ -1,22 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import useResponsive from "@hook/Responsive";
 import MobileHeader from './MobileHeader';
 import PcHeader from './PcHeader';
 
 function Header() {
-  const [innerWidth, setInnerWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const resizeWidth = () => {
-      setInnerWidth(window.innerWidth);
-    };
-
-    window.addEventListener('resize', resizeWidth);
-
-    return () => {
-      window.removeEventListener('resize', resizeWidth);
-    };
-  }, []);
-
+  const innerWidth = useResponsive();
+  
   return <header>{innerWidth < 1280 ? <MobileHeader /> : <PcHeader />}</header>;
 }
 
