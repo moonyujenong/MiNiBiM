@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MiNiBiM/static/css/main.4d3f35e0.css",
+    "main.css": "/MiNiBiM/static/css/main.21d1c5bb.css",
     "main.js": "/MiNiBiM/static/js/main.c3422fc5.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
     "static/media/PPMonumentExtended-Black.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Black.0f1381aa6d4704086866.woff2",
@@ -17,12 +17,12 @@
     "index.html": "/MiNiBiM/index.html",
     "static/media/hamburger.svg": "/MiNiBiM/static/media/hamburger.94abfdd3e52b242ae09750fdedf6dd67.svg",
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
-    "main.4d3f35e0.css.map": "/MiNiBiM/static/css/main.4d3f35e0.css.map",
+    "main.21d1c5bb.css.map": "/MiNiBiM/static/css/main.21d1c5bb.css.map",
     "main.c3422fc5.js.map": "/MiNiBiM/static/js/main.c3422fc5.js.map",
     "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d3f35e0.css",
+    "static/css/main.21d1c5bb.css",
     "static/js/main.c3422fc5.js"
   ]
 }
