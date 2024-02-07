@@ -57,6 +57,11 @@
     a {
       width: 38px;
       height: 38px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 
@@ -98,6 +103,11 @@
       top: auto;
       bottom: 84px;
       right: 15px;
+
+      a {
+        width: 44px;
+        height: 44px;
+      }
     }
 
     .copyright {
