@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/MiNiBiM/static/css/main.f855e6bc.css",
-    "main.js": "/MiNiBiM/static/js/main.ee9a4ecc.js",
+    "main.css": "/MiNiBiM/static/css/main.78cb7df8.css",
+    "main.js": "/MiNiBiM/static/js/main.f3cb7854.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
-    "static/media/logo.svg": "/MiNiBiM/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/PPMonumentExtended-Black.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Black.0f1381aa6d4704086866.woff2",
+    "static/media/PPMonumentExtended-Regular.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Regular.62921de59d0fa94b76d2.woff2",
+    "static/media/PPMonumentExtended-Light.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Light.e464c431c233654b8a06.woff2",
+    "static/media/PPMonumentExtended-Black.otf": "/MiNiBiM/static/media/PPMonumentExtended-Black.7c55ea9efbae3571bcee.otf",
+    "static/media/PPMonumentExtended-Regular.otf": "/MiNiBiM/static/media/PPMonumentExtended-Regular.0a38eadfd046191dd69f.otf",
+    "static/media/PPMonumentExtended-Light.otf": "/MiNiBiM/static/media/PPMonumentExtended-Light.26a6b9ed20d626086296.otf",
+    "static/media/PPMonumentExtended-Black.woff": "/MiNiBiM/static/media/PPMonumentExtended-Black.aac32740a3a4fb2e9c3a.woff",
+    "static/media/PPMonumentExtended-Regular.woff": "/MiNiBiM/static/media/PPMonumentExtended-Regular.097964cc81a16eeca92d.woff",
+    "static/media/PPMonumentExtended-Light.woff": "/MiNiBiM/static/media/PPMonumentExtended-Light.1600f45e7932acecc290.woff",
+    "static/media/instagram.svg": "/MiNiBiM/static/media/instagram.ee43088437d35c43634da70b2ec76c56.svg",
+    "static/media/twitter.svg": "/MiNiBiM/static/media/twitter.0e4c5361f16d02953c13ac9244ee101d.svg",
     "index.html": "/MiNiBiM/index.html",
-    "main.f855e6bc.css.map": "/MiNiBiM/static/css/main.f855e6bc.css.map",
-    "main.ee9a4ecc.js.map": "/MiNiBiM/static/js/main.ee9a4ecc.js.map",
+    "static/media/hamburger.svg": "/MiNiBiM/static/media/hamburger.94abfdd3e52b242ae09750fdedf6dd67.svg",
+    "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
+    "main.78cb7df8.css.map": "/MiNiBiM/static/css/main.78cb7df8.css.map",
+    "main.f3cb7854.js.map": "/MiNiBiM/static/js/main.f3cb7854.js.map",
     "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.ee9a4ecc.js"
+    "static/css/main.78cb7df8.css",
+    "static/js/main.f3cb7854.js"
   ]
 }
