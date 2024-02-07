@@ -17,24 +17,30 @@
 }
 
 @font-face {
-  font-family: 'monument';
-  src: url('../font/PPMonumentExtended-Light.otf') format('otf');
+  font-family: 'Monument';
+  src: url('../font/PPMonumentExtended-Light.otf') format('otf'),
+    url('../font/PPMonumentExtended-Light.woff') format('woff'),
+    url('../font/PPMonumentExtended-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
-  font-family: 'monument';
-  src: url('../font/PPMonumentExtended-Regular.otf') format('otf');
+  font-family: 'Monument';
+  src: url('../font/PPMonumentExtended-Regular.otf') format('otf'),
+    url('../font/PPMonumentExtended-Regular.woff') format('woff'),
+    url('../font/PPMonumentExtended-Regular.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
-  font-family: 'monument';
-  src: url('../font/PPMonumentExtended-Black.otf') format('otf');
+  font-family: 'Monument';
+  src: url('../font/PPMonumentExtended-Black.otf') format('otf'),
+    url('../font/PPMonumentExtended-Black.woff') format('woff'),
+    url('../font/PPMonumentExtended-Black.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   unicode-range: U+0041-005A, U+0061-007A;
@@ -48,11 +54,12 @@ html {
 html,
 body {
   height: 100%;
-  font-family: 'monument', 'Pretendard', sans-serif;
+  font-family: 'Monument', 'Pretendard', sans-serif;
+  overflow-x: hidden;
 }
 
 body {
-  background-color: #141414;
+  background-color: #000;
 }
 
 .wrap {
