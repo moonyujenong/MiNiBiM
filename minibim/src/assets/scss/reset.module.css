@@ -8,6 +8,38 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: 'monument';
+  src: url('../font/PPMonumentExtended-Light.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: 'monument';
+  src: url('../font/PPMonumentExtended-Regular.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: 'monument';
+  src: url('../font/PPMonumentExtended-Black.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -16,6 +48,7 @@ html {
 html,
 body {
   height: 100%;
+  font-family: 'monument', 'Pretendard', sans-serif;
 }
 
 body {
@@ -385,12 +418,14 @@ a {
   padding: 0;
   text-decoration: none;
 
-  &:focus, &:active {
+  &:focus,
+  &:active {
     outline: 0;
   }
-} 
+}
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   padding: 0;
   margin: 0;

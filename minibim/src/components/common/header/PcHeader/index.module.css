@@ -1,0 +1,39 @@
+.container {
+  height: 100px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo_link {
+    position: absolute;
+    top: 36px;
+    left: 56px;
+
+    h1 {
+      display: none;
+    }
+
+    img {
+      height: 26px;
+      width: auto;
+      display: block;
+    }
+  }
+
+  .menu_list {
+    display: flex;
+    align-items: center;
+    gap: 127px;
+
+    a {
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+}
