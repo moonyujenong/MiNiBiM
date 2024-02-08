@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/MiNiBiM/static/css/main.444fa68a.css",
-    "main.js": "/MiNiBiM/static/js/main.c3422fc5.js",
+    "main.css": "/MiNiBiM/static/css/main.777ba2b2.css",
+    "main.js": "/MiNiBiM/static/js/main.aeea1f6b.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
+    "static/media/mission_bg.png": "/MiNiBiM/static/media/mission_bg.e618962a51e186160dbc.png",
     "static/media/PPMonumentExtended-Black.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Black.0f1381aa6d4704086866.woff2",
     "static/media/PPMonumentExtended-Regular.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Regular.62921de59d0fa94b76d2.woff2",
     "static/media/PPMonumentExtended-Light.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Light.e464c431c233654b8a06.woff2",
@@ -17,12 +18,12 @@
     "index.html": "/MiNiBiM/index.html",
     "static/media/hamburger.svg": "/MiNiBiM/static/media/hamburger.94abfdd3e52b242ae09750fdedf6dd67.svg",
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
-    "main.444fa68a.css.map": "/MiNiBiM/static/css/main.444fa68a.css.map",
-    "main.c3422fc5.js.map": "/MiNiBiM/static/js/main.c3422fc5.js.map",
+    "main.777ba2b2.css.map": "/MiNiBiM/static/css/main.777ba2b2.css.map",
+    "main.aeea1f6b.js.map": "/MiNiBiM/static/js/main.aeea1f6b.js.map",
     "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.444fa68a.css",
-    "static/js/main.c3422fc5.js"
+    "static/css/main.777ba2b2.css",
+    "static/js/main.aeea1f6b.js"
   ]
 }
