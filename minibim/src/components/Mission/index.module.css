@@ -1,0 +1,76 @@
+.container {
+  .wrap {
+    width: 100%;
+    max-width: 1565px;
+    margin: 0 auto;
+    padding: 38px 16px;
+    display: grid;
+    gap: 128px;
+    box-sizing: border-box;
+    background-image: url(images/main/mission_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h3 {
+    color: #fff;
+    width: 100%;
+    max-width: 100%;
+    word-break: keep-all;
+
+    &.mission1 {
+      line-height: 1.58;
+      font-size: 36px;
+      text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100px;
+        background-color: #e65706;
+        border: 1px solid #000;
+        box-sizing: border-box;
+        position: relative;
+        bottom: -5px;
+        right: -5px;
+      }
+    }
+
+    &.mission2 {
+      font-size: 20px;
+      text-align: right;
+      line-height: 2.1;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .wrap {
+      padding: 150px 16px 195px;
+      gap: 333px;
+      background-size: 50%;
+    }
+
+    h3 {
+      &.mission1 {
+        font-size: 60px;
+        text-shadow: none;
+
+        &::after {
+          width: 14px;
+          height: 14px;
+          bottom: -8px;
+          right: -15px;
+          border: none;
+        }
+      }
+
+      &.mission2 {
+        font-size: 26px;
+        line-height: 2.5;
+      }
+    }
+  }
+}

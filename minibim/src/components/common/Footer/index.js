@@ -4,7 +4,7 @@ import style from './index.module.css';
 
 function Footer() {
   return (
-    <footer class={style.container}>
+    <footer className={style.container}>
       <div className={style.wrap}>
         <img alt="logo" src={logo} className={style.logo} />
         <ul className={style.foot_info}>
