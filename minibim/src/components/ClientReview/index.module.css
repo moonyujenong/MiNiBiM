@@ -1,0 +1,134 @@
+.container {
+  padding: 60px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+
+  .sub_title {
+    display: block;
+    padding: 8px 19px;
+    box-sizing: border-box;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    color: #c3c3c3;
+    font-size: 14px;
+    border-radius: 100px;
+    line-height: 34px;
+  }
+
+  > .title {
+    margin: 24px 0;
+    color: #fff;
+    font-size: 32px;
+    line-height: 52px;
+    word-break: keep-all;
+    font-weight: 600;
+
+    br {
+      display: none;
+    }
+  }
+
+  .review_list {
+    display: grid;
+    gap: 28px;
+    margin: 0 auto;
+  }
+
+  li.review {
+    display: grid;
+    gap: 17px;
+    font-family: 'Pretendard';
+
+    &:not(:last-child) {
+      h3 {
+        &::after {
+          content: '+';
+          display: block;
+          color: #e65706;
+          font-size: 50px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: -40px;
+        }
+      }
+    }
+
+    h3 {
+      position: relative;
+      font-size: 70px;
+      color: #fff;
+      font-weight: 600;
+      width: fit-content;
+      margin: 0 auto;
+    }
+
+    span {
+      font-size: 22px;
+      line-height: 34px;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 30px;
+      color: #c3c3c3;
+      word-break: keep-all;
+      margin: 0;
+      white-space: pre-wrap;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 138px 16px 176px;
+
+    .sub_title {
+      padding: 11px 51px;
+      font-size: 24px;
+    }
+
+    > .title {
+      margin: 29px 0 79px;
+      font-size: 60px;
+      line-height: 85px;
+
+      br {
+        display: block;
+      }
+    }
+
+    .review_list {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 60px;
+    }
+
+    li.review {
+      gap: 40px;
+
+      &:not(:last-child) {
+        h3 {
+          &::after {
+            font-size: 110px;
+            right: -80px;
+            top: 44%;
+          }
+        }
+      }
+
+      h3 {
+        font-size: 110px;
+      }
+
+      span {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
