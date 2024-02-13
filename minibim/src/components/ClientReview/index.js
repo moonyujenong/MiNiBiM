@@ -1,10 +1,11 @@
 import { reviewList } from './reviewList';
+import RadiusInText from '../common/RadiusInText';
 import style from './index.module.css';
 
 function ClientReview() {
   return (
     <div className={style.container}>
-      <span className={style.sub_title}>미니빔에서 작업한 결과들을 데이터로 확인해 보세요!</span>
+      <RadiusInText content="미니빔에서 작업한 결과들을 데이터로 확인해 보세요!" />
 
       <h3 className={style.title}>
         미니빔 서비스를 추천하는 <br />
