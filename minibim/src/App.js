@@ -3,6 +3,7 @@ import Header from '@components/common/Header';
 import Footer from '@components/common/Footer';
 import Mission from './components/Mission';
 import ClientReview from './components/ClientReview';
+import Process from './components/Process';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className={style.contents}>
         <Mission />
         <ClientReview />
+        <Process />
       </div>
       <Footer />
     </div>
