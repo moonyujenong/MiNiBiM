@@ -28,6 +28,8 @@
       max-width: 284px;
       margin: 0 auto;
       display: block;
+      position: relative;
+      transition: all 0.2s ease-in-out;
     }
 
     h3 {
@@ -98,6 +100,7 @@
         margin-bottom: 52px;
       }
 
+      &.active,
       &:hover {
         h3 {
           transition: all 0.15s ease-in-out;
@@ -115,6 +118,12 @@
         }
       }
 
+      &:hover {
+        img {
+          animation: motion 0.85s infinite cubic-bezier(0.48, 0, 0.48, 1) alternate;
+        }
+      }
+
       h3 {
         font-size: 24px;
         gap: 12px;
@@ -126,5 +135,14 @@
         line-height: 34px;
       }
     }
+  }
+}
+
+@keyframes motion {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: -30px;
   }
 }
