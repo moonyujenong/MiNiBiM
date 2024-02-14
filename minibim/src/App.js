@@ -4,6 +4,7 @@ import Footer from '@components/common/Footer';
 import Mission from './components/Mission';
 import ClientReview from './components/ClientReview';
 import Process from './components/Process';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Mission />
         <ClientReview />
         <Process />
+        <Contact />
       </div>
       <Footer />
     </div>

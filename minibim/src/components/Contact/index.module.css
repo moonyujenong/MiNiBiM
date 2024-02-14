@@ -1,0 +1,97 @@
+.container {
+  padding: 60px 16px;
+
+  .title {
+    color: #fff;
+    font-size: 32px;
+    line-height: 52px;
+    margin-bottom: 59px;
+    display: block;
+  }
+
+  .enter_list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .form_box {
+    position: relative;
+
+    label {
+      position: relative;
+    }
+
+    input,
+    textarea,
+    .custom_file {
+      box-sizing: border-box;
+      display: block;
+      background-color: transparent;
+      width: 100%;
+      font-family: 'Pretendard';
+      font-size: 16px;
+      color: #fff;
+
+      &::placeholder {
+        color: #898989;
+      }
+    }
+
+    textarea {
+      border: 1px solid #fff;
+      padding: 20px;
+      height: 353px;
+    }
+
+    input,
+    .custom_file {
+      border-bottom: 1px solid #fff;
+      padding: 0 0 14px;
+    }
+  }
+
+  .category {
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    margin-bottom: 17px;
+
+    &.requir {
+      &::after {
+        content: '*';
+        display: block;
+        color: #e65706;
+        display: inline-block;
+        font-size: 17px;
+        position: relative;
+        top: -3px;
+        right: -4px;
+      }
+    }
+  }
+
+  .submit_btn {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    margin: 23px auto 0;
+    padding: 21px 49px;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+  }
+
+  .file_upload {
+    color: #fff;
+    position: absolute;
+    bottom: 14px;
+    right: 8px;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 79px 16px 95px;
+  }
+}
