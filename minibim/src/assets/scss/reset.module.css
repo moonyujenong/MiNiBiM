@@ -229,7 +229,6 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
-<<<<<<< HEAD
   appearance: none;
   border: 0;
 
@@ -248,8 +247,6 @@ input::-webkit-inner-spin-button {
 /* Firefox  */
 input[type='number'] {
   -moz-appearance: textfield;
-=======
->>>>>>> b34f4da4fd60a8241addc76f3e128db7fc97ec03
 }
 
 /**
@@ -261,10 +258,7 @@ button,
 input {
   /* 1 */
   overflow: visible;
-<<<<<<< HEAD
   cursor: pointer;
-=======
->>>>>>> b34f4da4fd60a8241addc76f3e128db7fc97ec03
 }
 
 /**
@@ -350,10 +344,7 @@ progress {
 
 textarea {
   overflow: auto;
-<<<<<<< HEAD
   resize: none;
-=======
->>>>>>> b34f4da4fd60a8241addc76f3e128db7fc97ec03
 }
 
 /**
