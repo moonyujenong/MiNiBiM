@@ -20,6 +20,7 @@
     word-break: keep-all;
 
     &.mission1 {
+      letter-spacing: 3px;
       line-height: 1.58;
       font-size: 36px;
       text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;

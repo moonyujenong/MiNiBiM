@@ -61,7 +61,6 @@ body {
 .wrap {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .contents {
@@ -230,6 +229,24 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  appearance: none;
+  border: 0;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox  */
+input[type='number'] {
+  -moz-appearance: textfield;
 }
 
 /**
@@ -241,6 +258,7 @@ button,
 input {
   /* 1 */
   overflow: visible;
+  cursor: pointer;
 }
 
 /**
@@ -326,6 +344,7 @@ progress {
 
 textarea {
   overflow: auto;
+  resize: none;
 }
 
 /**
