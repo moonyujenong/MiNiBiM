@@ -1,17 +1,24 @@
 .container {
   padding: 60px 16px;
+  font-family: 'Pretendard';
+
+  .wrap {
+    width: 100%;
+    max-width: 1568px;
+    margin: 0 auto;
+  }
 
   .title {
     color: #fff;
     font-size: 32px;
     line-height: 52px;
     margin-bottom: 59px;
+    letter-spacing: 3px;
     display: block;
   }
 
   .enter_list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 30px;
   }
 
@@ -29,13 +36,16 @@
       display: block;
       background-color: transparent;
       width: 100%;
-      font-family: 'Pretendard';
       font-size: 16px;
       color: #fff;
 
       &::placeholder {
         color: #898989;
       }
+    }
+
+    .file_name_input {
+      padding-right: 100px;
     }
 
     textarea {
@@ -93,5 +103,47 @@
 
   @media screen and (min-width: 1280px) {
     padding: 79px 16px 95px;
+
+    .title {
+      font-size: 60px;
+      line-height: 135px;
+      margin-bottom: 42px;
+    }
+
+    .enter_list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px 92px;
+    }
+
+    .form_box {
+      &:last-child {
+        grid-column: 1 / -1;
+      }
+
+      input,
+      textarea,
+      .custom_file {
+        font-size: 18px;
+      }
+
+      textarea {
+        height: 222px;
+      }
+    }
+
+    .category {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    .file_upload {
+      font-size: 18px;
+    }
+
+    .submit_btn {
+      margin: 46px 0 0 auto;
+    }
   }
 }

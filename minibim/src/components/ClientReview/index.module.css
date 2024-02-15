@@ -11,6 +11,7 @@
     line-height: 52px;
     word-break: keep-all;
     font-weight: 600;
+    letter-spacing: 3px;
 
     br {
       display: none;
