@@ -54,7 +54,7 @@
       margin: 0 auto;
     }
 
-    span {
+    span.title {
       font-size: 22px;
       line-height: 34px;
       color: #fff;
