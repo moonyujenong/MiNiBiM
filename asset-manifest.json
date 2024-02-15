@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MiNiBiM/static/css/main.777ba2b2.css",
-    "main.js": "/MiNiBiM/static/js/main.aeea1f6b.js",
+    "main.css": "/MiNiBiM/static/css/main.d36373b8.css",
+    "main.js": "/MiNiBiM/static/js/main.bdd4f995.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
     "static/media/mission_bg.png": "/MiNiBiM/static/media/mission_bg.e618962a51e186160dbc.png",
     "static/media/PPMonumentExtended-Black.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Black.0f1381aa6d4704086866.woff2",
@@ -13,17 +13,18 @@
     "static/media/PPMonumentExtended-Black.woff": "/MiNiBiM/static/media/PPMonumentExtended-Black.aac32740a3a4fb2e9c3a.woff",
     "static/media/PPMonumentExtended-Regular.woff": "/MiNiBiM/static/media/PPMonumentExtended-Regular.097964cc81a16eeca92d.woff",
     "static/media/PPMonumentExtended-Light.woff": "/MiNiBiM/static/media/PPMonumentExtended-Light.1600f45e7932acecc290.woff",
+    "static/media/process_1.png": "/MiNiBiM/static/media/process_1.f099a6d7cf042ec5d800.png",
     "static/media/instagram.svg": "/MiNiBiM/static/media/instagram.ee43088437d35c43634da70b2ec76c56.svg",
     "static/media/twitter.svg": "/MiNiBiM/static/media/twitter.0e4c5361f16d02953c13ac9244ee101d.svg",
     "index.html": "/MiNiBiM/index.html",
     "static/media/hamburger.svg": "/MiNiBiM/static/media/hamburger.94abfdd3e52b242ae09750fdedf6dd67.svg",
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
-    "main.777ba2b2.css.map": "/MiNiBiM/static/css/main.777ba2b2.css.map",
-    "main.aeea1f6b.js.map": "/MiNiBiM/static/js/main.aeea1f6b.js.map",
+    "main.d36373b8.css.map": "/MiNiBiM/static/css/main.d36373b8.css.map",
+    "main.bdd4f995.js.map": "/MiNiBiM/static/js/main.bdd4f995.js.map",
     "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.777ba2b2.css",
-    "static/js/main.aeea1f6b.js"
+    "static/css/main.d36373b8.css",
+    "static/js/main.bdd4f995.js"
   ]
 }
