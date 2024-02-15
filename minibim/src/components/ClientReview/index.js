@@ -15,7 +15,7 @@ function ClientReview() {
       <ul className={style.review_list}>
         {reviewList.map((item) => (
           <li className={style.review} key={item.id}>
-            <h3 className={style.length}>{item.length}</h3>
+            <h3 className={style.length}>{item.count}</h3>
             <span className={style.title}>{item.title}</span>
             <p className={style.explain}>{item.explain}</p>
           </li>
