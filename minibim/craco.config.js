@@ -8,7 +8,6 @@ module.exports = {
       '@style': path.resolve(__dirname, 'src/assets/scss'),
       '@hook': path.resolve(__dirname, 'src/hook'),
       images: path.resolve(__dirname, 'src/assets/img'),
-      js: path.resolve(__dirname, 'src/assets/js'),
     },
   },
   style: {

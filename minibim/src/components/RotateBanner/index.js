@@ -10,7 +10,7 @@ function RotateBanner() {
       <div className={style.banner_list}></div>
       <div className={style.wrap}>
         {bannerList.map((item) => (
-          <>
+          <div className={style.banner_slide}>
             <img alt="thumbnail" src={item.img} />
 
             <div className={style.info}>
@@ -23,7 +23,7 @@ function RotateBanner() {
                 </a>
               </div>
             </div>
-          </>
+          </div>
         ))}
       </div>
     </div>

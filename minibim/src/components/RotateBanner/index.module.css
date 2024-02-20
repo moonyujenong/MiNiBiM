@@ -52,18 +52,11 @@
   }
 
   .banner_slide {
-    margin: 0 -16px;
-
     img {
       display: block;
       width: calc((100vw * 286) / 375);
       margin: 0 auto 76px;
     }
-  }
-
-  :global(.swiper-button-prev),
-  :global(.swiper-button-next) {
-    display: none;
   }
 
   @media screen and (min-width: 1280px) {
