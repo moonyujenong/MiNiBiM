@@ -6,13 +6,14 @@ module.exports = {
       '@': path.resolve(__dirname, 'src/'),
       '@components': path.resolve(__dirname, 'src/components'),
       '@style': path.resolve(__dirname, 'src/assets/scss'),
-      '@hook' :path.resolve(__dirname, 'src/hook'), 
-      'images' :path.resolve(__dirname, 'src/assets/img'), 
+      '@hook': path.resolve(__dirname, 'src/hook'),
+      images: path.resolve(__dirname, 'src/assets/img'),
+      js: path.resolve(__dirname, 'src/assets/js'),
     },
   },
   style: {
     postcss: {
-      mode: "file",
+      mode: 'file',
     },
   },
-}; 
+};
