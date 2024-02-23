@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -6,7 +6,8 @@ import { reviewList } from './reviewList';
 import RadiusInText from '../common/RadiusInText';
 import style from './index.module.css';
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(useGSAP, ScrollTrigger);
+console.clear();
 
 function ClientReview() {
   const countEls = useRef([]);
@@ -17,11 +18,12 @@ function ClientReview() {
       reviewList.forEach((item, index) => {
         const countEl = countEls.current[index];
         gsap.to(countEl, {
-          innerHTML: Math.ceil(Number(item.count)),
-          duration: 4,
+          innerHTML: item.count,
+          snap: 'innerHTML',
+          duration: 3,
           scrollTrigger: {
             trigger: countContainer.current,
-            start: 'bottm bottom ',
+            start: 'top 100%',
             end: 'bottom 50%',
             markers: true,
           },
