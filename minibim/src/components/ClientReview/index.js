@@ -16,16 +16,18 @@ function ClientReview() {
   useGSAP(
     () => {
       reviewList.forEach((item, index) => {
-        const countEl = countEls.current[index];
+        const countEl = countEls.current[index],
+          round = index === 2 ? 0.1 : 1;
         gsap.to(countEl, {
-          innerHTML: item.count,
-          snap: 'innerHTML',
+          innerHTML: gsap.utils.snap(round, item.count),
+          snap: {
+            innerHTML: round,
+          },
           duration: 3,
           scrollTrigger: {
             trigger: countContainer.current,
-            start: 'top 100%',
+            start: 'top 90%',
             end: 'bottom 50%',
-            markers: true,
           },
         });
       });
@@ -34,7 +36,7 @@ function ClientReview() {
   );
 
   return (
-    <div className={style.container} ref={countContainer}>
+    <div className={style.container}>
       <RadiusInText content="미니빔에서 작업한 결과들을 데이터로 확인해 보세요!" />
 
       <h3 className={style.title}>
@@ -42,7 +44,7 @@ function ClientReview() {
         고객의 목소리를 들어보세요
       </h3>
 
-      <ul className={style.review_list}>
+      <ul className={style.review_list} ref={countContainer}>
         {reviewList.map((item, index) => (
           <li className={style.review} key={item.id}>
             <h3 ref={(el) => (countEls.current[index] = el)} className={style.length}>
