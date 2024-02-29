@@ -5,12 +5,14 @@ import Mission from './components/Mission';
 import ClientReview from './components/ClientReview';
 import Process from './components/Process';
 import Contact from './components/Contact';
+import RotateBanner from './components/RotateBanner';
 
 function App() {
   return (
     <div className={style.wrap}>
       <Header />
       <div className={style.contents}>
+        <RotateBanner />
         <Mission />
         <ClientReview />
         <Process />

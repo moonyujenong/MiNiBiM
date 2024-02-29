@@ -3,6 +3,7 @@
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+  position: relative;
 
   > .title {
     margin: 24px 0;
@@ -23,12 +24,14 @@
     gap: 28px;
     margin: 0 auto;
     max-width: 1218px;
+    position: relative;
   }
 
   li.review {
     display: grid;
     gap: 17px;
     font-family: 'Pretendard';
+    position: relative;
 
     &:not(:last-child) {
       h3 {
