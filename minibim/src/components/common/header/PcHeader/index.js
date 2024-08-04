@@ -1,5 +1,5 @@
 import { menuList } from '../menuList';
-import logo from 'images/common/pc_logo.png';
+import logo from 'images/common/logo.svg';
 import style from './index.module.css';
 
 function PcHeader() {

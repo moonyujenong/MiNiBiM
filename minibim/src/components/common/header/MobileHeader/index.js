@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { menuList } from '../menuList';
-import logo from 'images/common/logo.png';
+import logo from 'images/common/logo.svg';
 import hamburger from 'images/common/hamburger.svg';
 import close from 'images/common/close.svg';
 import style from './index.module.css';

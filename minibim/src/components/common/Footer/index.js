@@ -1,4 +1,4 @@
-import logo from 'images/common/pc_logo.png';
+import logo from 'images/common/logo.svg';
 import { snsList } from './snsList';
 import style from './index.module.css';
 
@@ -9,7 +9,7 @@ function Footer() {
         <img alt="logo" src={logo} className={style.logo} />
         <ul className={style.foot_info}>
           <li className={style.info_item}>
-            (주) 미니빔 <p>|</p> 대표 문유정 임지영
+            (주) 크레페스튜디오 <p>|</p> 대표 문유정 임지영
           </li>
           <li className={style.info_item}>
             사업자등록번호 : 203-2933-20392

@@ -1,22 +1,21 @@
 .container {
-  background-color: #141414;
-  font-family: 'Pretendard';
+  background-color: #0A0A0A;
 
   .wrap {
     width: 100%;
-    max-width: 1565px;
+    max-width: 1502px;
     margin: 0 auto;
-    padding: 46px 36px 61px;
+    padding: 40px 16px 61px;
     box-sizing: border-box;
     position: relative;
   }
 
   img.logo {
-    width: 103px;
-    height: 25px;
+    width: 148px;
+    height: 40px;
     object-fit: contain;
     display: block;
-    margin-bottom: 43px;
+    margin-bottom: 35px;
   }
 
   .foot_info {
@@ -42,17 +41,17 @@
       p {
         color: #424242;
         display: inline-block;
-        margin: 0;
+        margin: 0 8px;
       }
     }
   }
 
   .sns_box {
     position: absolute;
-    top: 46px;
-    right: 36px;
+    top: 40px;
+    right: 16px;
     display: flex;
-    gap: 13px;
+    gap: 18px;
 
     a {
       width: 38px;
@@ -73,16 +72,22 @@
 
   @media screen and (min-width: 1280px) {
     .wrap {
-      padding: 80px 15px 89px;
+      padding: 80px 16px 89px;
+    }
+
+    img.logo {
+      height: 37px;
+      margin-bottom: 10px;
     }
 
     .foot_info {
       gap: 14px 31px;
+      max-width: 40%;
 
       li {
         font-size: 16px;
 
-        &:not(:first-child, :last-child)::after {
+        &:not(:first-child, :nth-child(3), :last-child)::after {
           content: '';
           display: block;
           width: 1px;
