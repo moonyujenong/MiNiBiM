@@ -1,23 +1,18 @@
-import style from '@style/reset.module.css';
-import Header from '@components/common/Header';
-import Footer from '@components/common/Footer';
-import Mission from './components/Mission';
-import ClientReview from './components/ClientReview';
-import Process from './components/Process';
-import Contact from './components/Contact';
+import "./App.css";
+import { lazy } from 'react';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+
+const Home = lazy(() => import("./pages/Home"));
 
 function App() {
   return (
-    <div className={style.wrap}>
-      <Header />
-      <div className={style.contents}>
-        <Mission />
-        <ClientReview />
-        <Process />
-        <Contact />
-      </div>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <>
+          <Route path="/" element={<Home />} />
+        </>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

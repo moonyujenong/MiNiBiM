@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { processList } from './processList';
-import RadiusInText from '../common/RadiusInText';
+import RadiusInText from "@components/RadiusInText";
 import style from './index.module.css';
 
 function Process() {
