@@ -6,7 +6,7 @@ const Home = lazy(() => import("./pages/Home"));
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MiNiBiM">
       <Routes>
         <>
           <Route path="/" element={<Home />} />
