@@ -1,35 +1,24 @@
 {
   "files": {
-    "main.css": "/MiNiBiM/static/css/main.67a07c64.css",
-    "main.js": "/MiNiBiM/static/js/main.e112420c.js",
+    "main.css": "/MiNiBiM/static/css/main.160210da.css",
+    "main.js": "/MiNiBiM/static/js/main.46696658.js",
+    "static/css/943.f5d1db65.chunk.css": "/MiNiBiM/static/css/943.f5d1db65.chunk.css",
+    "static/js/943.6f1d07ee.chunk.js": "/MiNiBiM/static/js/943.6f1d07ee.chunk.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
-    "static/media/mission_bg.png": "/MiNiBiM/static/media/mission_bg.e618962a51e186160dbc.png",
-    "static/media/banner_thumbnail_4.png": "/MiNiBiM/static/media/banner_thumbnail_4.2b338bfcbb8c972e818c.png",
-    "static/media/PPMonumentExtended-Black.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Black.0f1381aa6d4704086866.woff2",
-    "static/media/PPMonumentExtended-Regular.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Regular.62921de59d0fa94b76d2.woff2",
-    "static/media/PPMonumentExtended-Light.woff2": "/MiNiBiM/static/media/PPMonumentExtended-Light.e464c431c233654b8a06.woff2",
-    "static/media/banner_thumbnail_2.png": "/MiNiBiM/static/media/banner_thumbnail_2.38064c8ea92d6631cd89.png",
-    "static/media/banner_thumbnail_3.png": "/MiNiBiM/static/media/banner_thumbnail_3.cb77b78aacbebca9f14c.png",
-    "static/media/PPMonumentExtended-Black.otf": "/MiNiBiM/static/media/PPMonumentExtended-Black.7c55ea9efbae3571bcee.otf",
-    "static/media/PPMonumentExtended-Regular.otf": "/MiNiBiM/static/media/PPMonumentExtended-Regular.0a38eadfd046191dd69f.otf",
-    "static/media/PPMonumentExtended-Light.otf": "/MiNiBiM/static/media/PPMonumentExtended-Light.26a6b9ed20d626086296.otf",
-    "static/media/PPMonumentExtended-Black.woff": "/MiNiBiM/static/media/PPMonumentExtended-Black.aac32740a3a4fb2e9c3a.woff",
-    "static/media/PPMonumentExtended-Regular.woff": "/MiNiBiM/static/media/PPMonumentExtended-Regular.097964cc81a16eeca92d.woff",
-    "static/media/PPMonumentExtended-Light.woff": "/MiNiBiM/static/media/PPMonumentExtended-Light.1600f45e7932acecc290.woff",
-    "static/media/process_1.png": "/MiNiBiM/static/media/process_1.f099a6d7cf042ec5d800.png",
-    "static/media/banner_thumbnail_1.png": "/MiNiBiM/static/media/banner_thumbnail_1.9ff7d06f15da31189276.png",
+    "static/media/logo.svg": "/MiNiBiM/static/media/logo.77e35fa07efa1dc8b1f50564eb59f272.svg",
     "static/media/instagram.svg": "/MiNiBiM/static/media/instagram.ee43088437d35c43634da70b2ec76c56.svg",
     "static/media/twitter.svg": "/MiNiBiM/static/media/twitter.0e4c5361f16d02953c13ac9244ee101d.svg",
     "index.html": "/MiNiBiM/index.html",
     "static/media/hamburger.svg": "/MiNiBiM/static/media/hamburger.94abfdd3e52b242ae09750fdedf6dd67.svg",
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
-    "static/media/icon_arrow.svg": "/MiNiBiM/static/media/icon_arrow.4ca171388aa5310a734722e70d54542e.svg",
-    "main.67a07c64.css.map": "/MiNiBiM/static/css/main.67a07c64.css.map",
-    "main.e112420c.js.map": "/MiNiBiM/static/js/main.e112420c.js.map",
+    "main.160210da.css.map": "/MiNiBiM/static/css/main.160210da.css.map",
+    "main.46696658.js.map": "/MiNiBiM/static/js/main.46696658.js.map",
+    "943.f5d1db65.chunk.css.map": "/MiNiBiM/static/css/943.f5d1db65.chunk.css.map",
+    "943.6f1d07ee.chunk.js.map": "/MiNiBiM/static/js/943.6f1d07ee.chunk.js.map",
     "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67a07c64.css",
-    "static/js/main.e112420c.js"
+    "static/css/main.160210da.css",
+    "static/js/main.46696658.js"
   ]
 }
