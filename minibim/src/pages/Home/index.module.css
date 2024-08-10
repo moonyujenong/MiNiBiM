@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  padding: 27px 16px 0;
+  position: relative;
+  box-sizing: border-box;
+
+  > h3 {
+    color: #fff;
+    font-size: 16vw;
+    font-weight: 400;
+    line-height: 20.267vw;
+    word-break: keep-all;
+    display: block;
+    width: fit-content;
+
+    &.right_title {
+      margin-top: 24vw;
+      font-size: 4.267vw;
+      line-height: 9.067vw;
+      text-align: right;
+      margin-left: auto;
+    }
+  }
+
+  @media screen and (min-width:1280px) {
+    padding: 68px 54px 0;
+
+    > h3 {
+      font-size: 154px;
+      line-height: 164px;
+
+      &.right_title {
+        margin-top: 170px;
+        font-size: 24px;
+        text-align: left;
+        line-height: 50px;
+        
+        padding-right: 61px;
+
+        br:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+  }
+}

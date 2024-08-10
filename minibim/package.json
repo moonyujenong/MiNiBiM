@@ -13,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.26.0",
     "react-scripts": "^5.0.1",
+    "swiper": "^11.1.9",
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://moonyujenong.github.io/MiNiBiM/",
@@ -50,6 +51,7 @@
     "postcss-import": "^16.0.0",
     "postcss-nested": "^6.0.1",
     "postcss-nesting": "^12.0.2",
-    "postcss-preset-env": "^9.3.0"
+    "postcss-preset-env": "^9.3.0",
+    "prettier": "^3.3.3"
   }
 }

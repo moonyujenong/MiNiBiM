@@ -465,3 +465,13 @@ ol {
   padding: 0;
   margin: 0;
 }
+
+.d_mobile_block {
+  display: block;
+}
+
+@media screen and (min-width:1280px) {
+  .d_mobile_block {
+    display: none;
+  } 
+}
