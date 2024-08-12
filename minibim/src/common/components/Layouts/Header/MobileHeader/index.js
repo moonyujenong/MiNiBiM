@@ -13,16 +13,18 @@ function MobileHeader() {
   };
 
   return (
-    <div className={style.container}>
-      <button className={style.hamburger} type="button" onClick={fngControl}>
-        <img alt="hamburger" src={hamburger} />
-      </button>
+    <>
+      <div className={style.container}>
+        <button className={style.hamburger} type="button" onClick={fngControl}>
+          <img alt="hamburger" src={hamburger} />
+        </button>
 
-      <a className={style.logo_link} href="/">
-        <h1>로고 이미지</h1>
-        <img alt="logo" src={logo} />
-      </a>
-
+        <a className={style.logo_link} href="/">
+          <h1>로고 이미지</h1>
+          <img alt="logo" src={logo} />
+        </a>
+      </div>
+      
       {/* FNB */}
       <div className={`${style.fnb} ${isFngOpen ? 'active' : ''}`}>
         <button className={style.close} type="button" onClick={fngControl}>
@@ -38,7 +40,7 @@ function MobileHeader() {
         </ul>
       </div>
       {/* //FNB */}
-    </div>
+    </>
   );
 }
 

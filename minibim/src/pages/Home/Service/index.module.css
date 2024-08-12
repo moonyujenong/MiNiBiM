@@ -1,0 +1,32 @@
+.container {
+  padding: 60px 0;
+  box-sizing: border-box;
+
+  .title {
+    color: #fff;
+    text-align: right;
+    font-size: 16vw;
+    font-weight: 400;
+    margin-bottom: 10.667vw;
+    line-height: 20.267vw;
+  }
+
+  .list_item {
+    border-top: 1px solid #D9D9D9;
+    padding: 8vw 0 11.733vw;
+  }
+
+  .item_title {
+    color: #fff;
+    font-size: 5.333vw;
+    font-weight: 400;
+    margin-bottom: 2.133vw;
+  }
+
+  .item_desc {
+    color: #A4A4A4;
+    font-size: 4.267vw;
+    font-weight: 400;
+    margin: 0;
+  }
+}
