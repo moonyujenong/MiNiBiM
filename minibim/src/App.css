@@ -46,7 +46,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
- @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 
 @font-face {
   font-family: 'Pretendard';
@@ -459,6 +459,10 @@ a {
   }
 }
 
+p {
+  margin: 0;
+}
+
 ul,
 ol {
   list-style: none;
@@ -470,8 +474,8 @@ ol {
   display: block;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
   .d_mobile_block {
     display: none;
-  } 
+  }
 }
