@@ -3,6 +3,7 @@ import Layouts from '../../common/components/Layouts';
 import Works from './Works';
 import Service from './Service';
 import Process from './Process';
+import ClientReview from './ClientReview';
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
         <Works />
         <Service />
         <Process />
+        <ClientReview />
       </div>
     </Layouts>
   );
