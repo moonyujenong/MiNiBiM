@@ -51,7 +51,7 @@
   }
 
   @media screen and (min-width: 1280px) {
-    padding: 60px 0;
+    padding: 60px 0 90px;
 
     .title {
       font-size: 154px;
