@@ -1,39 +1,40 @@
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import { reviewList } from './reviewList';
 import style from './index.module.css';
 import iconPlus from 'images/common/icon-plus.svg';
 import gsap from 'https://esm.sh/gsap';
 import ScrollTrigger from 'https://esm.sh/gsap/ScrollTrigger';
-import { useGSAP } from 'https://esm.sh/@gsap/react';
 
-gsap.registerPlugin(useGSAP, ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 function ClientReview() {
   const countEls = useRef([]);
   const countContainer = useRef();
 
-  useGSAP(
-    () => {
-      reviewList.forEach((item, index) => {
-        const countEl = countEls.current[index],
-          round = index === 2 ? 0.1 : 1;
-        gsap.to(countEl, {
-          innerHTML: gsap.utils.snap(round, item.count),
-          snap: {
-            innerHTML: round,
-          },
-          duration: 4,
-          scrollTrigger: {
-            trigger: countContainer.current,
-            start: 'bottom bottom',
-            end: 'bottom 50%',
-            markers: true,
-          },
-        });
+  useEffect(() => {
+    const anim = reviewList.map((item, index) => {
+      const countEl = countEls.current[index];
+      const round = index === 2 ? 0.1 : 1;
+
+      return gsap.to(countEl, {
+        innerHTML: gsap.utils.snap(round, item.count),
+        snap: {
+          innerHTML: round,
+        },
+        duration: 4,
+        scrollTrigger: {
+          trigger: countContainer.current,
+          start: 'bottom bottom',
+          end: 'top 10%',
+        },
       });
-    },
-    { scope: countContainer }
-  );
+    });
+
+    return () => {
+      anim.forEach(a => a.kill());
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+    };
+  }, []);
 
   return (
     <div className={style.container} ref={countContainer}>
@@ -42,8 +43,9 @@ function ClientReview() {
       <ul className={style.review_list}>
         {reviewList.map((item, index) => (
           <li className={style.review_item} key={item.id}>
-            <h3 className={style.length} ref={(el) => (countEls.current[index] = el)}>
-              0 {item.id !== 3 && <img alt="icon plus" src={iconPlus} />}
+            <h3 className={style.length}>
+              <p ref={(el) => (countEls.current[index] = el)}>0</p>
+              {item.id !== 3 && <img alt="icon plus" src={iconPlus} />}
             </h3>
             <span className={style.item_title}>{item.title}</span>
             <p className={style.explain}>{item.explain}</p>

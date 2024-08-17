@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
 import style from './index.module.css';
 import Layouts from '../../common/components/Layouts';
 import Works from './Works';
 import Service from './Service';
 import Process from './Process';
 import ClientReview from './ClientReview';
+import lineArrowIcon from "images/common/icon-line-arrow.svg";
 
 function Home() {
   return (
@@ -29,6 +31,14 @@ function Home() {
         <Service />
         <Process />
         <ClientReview />
+
+        <div className={style.bottom_banner}>
+          <h3 className={style.banner_title}>What We Do</h3>
+          <Link to='#!'>
+            More
+            <img alt='arrow icon' src={lineArrowIcon} />
+          </Link>
+        </div>
       </div>
     </Layouts>
   );
