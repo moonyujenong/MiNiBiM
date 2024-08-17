@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/MiNiBiM/static/css/main.160210da.css",
-    "main.js": "/MiNiBiM/static/js/main.2087f182.js",
-    "static/css/943.f5d1db65.chunk.css": "/MiNiBiM/static/css/943.f5d1db65.chunk.css",
-    "static/js/943.6f1d07ee.chunk.js": "/MiNiBiM/static/js/943.6f1d07ee.chunk.js",
+    "main.css": "/MiNiBiM/static/css/main.a0f5c2f3.css",
+    "main.js": "/MiNiBiM/static/js/main.59e6b76f.js",
+    "static/css/864.dc84c3bc.chunk.css": "/MiNiBiM/static/css/864.dc84c3bc.chunk.css",
+    "static/js/864.eacbddd7.chunk.js": "/MiNiBiM/static/js/864.eacbddd7.chunk.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
+    "static/js/486.3266c12b.chunk.js": "/MiNiBiM/static/js/486.3266c12b.chunk.js",
+    "static/media/floor_banner.png": "/MiNiBiM/static/media/floor_banner.f75dcf57d200fc338512.png",
+    "static/media/sample-wordk-thumbnail.png": "/MiNiBiM/static/media/sample-wordk-thumbnail.1c506075cef36c919fc9.png",
+    "static/media/sample-process-icon.png": "/MiNiBiM/static/media/sample-process-icon.f74e7ed6a5397e09eae7.png",
     "static/media/logo.svg": "/MiNiBiM/static/media/logo.77e35fa07efa1dc8b1f50564eb59f272.svg",
     "static/media/instagram.svg": "/MiNiBiM/static/media/instagram.ee43088437d35c43634da70b2ec76c56.svg",
     "static/media/twitter.svg": "/MiNiBiM/static/media/twitter.0e4c5361f16d02953c13ac9244ee101d.svg",
     "index.html": "/MiNiBiM/index.html",
     "static/media/hamburger.svg": "/MiNiBiM/static/media/hamburger.94abfdd3e52b242ae09750fdedf6dd67.svg",
+    "static/media/icon-plus.svg": "/MiNiBiM/static/media/icon-plus.4b103726c63b8f32aae6d05d3c6d4096.svg",
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
-    "main.160210da.css.map": "/MiNiBiM/static/css/main.160210da.css.map",
-    "main.2087f182.js.map": "/MiNiBiM/static/js/main.2087f182.js.map",
-    "943.f5d1db65.chunk.css.map": "/MiNiBiM/static/css/943.f5d1db65.chunk.css.map",
-    "943.6f1d07ee.chunk.js.map": "/MiNiBiM/static/js/943.6f1d07ee.chunk.js.map",
-    "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map"
+    "static/media/icon-line-arrow.svg": "/MiNiBiM/static/media/icon-line-arrow.56aaa681f459c85cabd726d569f63341.svg",
+    "main.a0f5c2f3.css.map": "/MiNiBiM/static/css/main.a0f5c2f3.css.map",
+    "main.59e6b76f.js.map": "/MiNiBiM/static/js/main.59e6b76f.js.map",
+    "864.dc84c3bc.chunk.css.map": "/MiNiBiM/static/css/864.dc84c3bc.chunk.css.map",
+    "864.eacbddd7.chunk.js.map": "/MiNiBiM/static/js/864.eacbddd7.chunk.js.map",
+    "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map",
+    "486.3266c12b.chunk.js.map": "/MiNiBiM/static/js/486.3266c12b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.160210da.css",
-    "static/js/main.2087f182.js"
+    "static/css/main.a0f5c2f3.css",
+    "static/js/main.59e6b76f.js"
   ]
 }
