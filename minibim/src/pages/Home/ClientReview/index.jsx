@@ -2,8 +2,8 @@ import { useRef, useEffect } from 'react';
 import { reviewList } from './reviewList';
 import style from './index.module.css';
 import iconPlus from 'images/common/icon-plus.svg';
-import gsap from 'https://esm.sh/gsap';
-import ScrollTrigger from 'https://esm.sh/gsap/ScrollTrigger';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
