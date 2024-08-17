@@ -47,8 +47,10 @@ function ClientReview() {
               <p ref={(el) => (countEls.current[index] = el)}>0</p>
               {item.id !== 3 && <img alt="icon plus" src={iconPlus} />}
             </h3>
-            <span className={style.item_title}>{item.title}</span>
-            <p className={style.explain}>{item.explain}</p>
+            <div className={style.texts}>
+              <span className={style.item_title}>{item.title}</span>
+              <p className={style.explain}>{item.explain}</p>
+            </div>
           </li>
         ))}
       </ul>

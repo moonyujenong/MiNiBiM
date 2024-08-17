@@ -40,35 +40,35 @@
         height: 6.933vw;
       }
     }
+  }
 
-    .item_title {
-      font-size: 4.8vw;
-      line-height: normal;
-      margin-bottom: 2.4vw;
-      color: #fff;
-      font-weight: 400;
-      text-align: left;
-      display: block;
-    }
+  .item_title {
+    font-size: 4.8vw;
+    line-height: normal;
+    margin-bottom: 2.4vw;
+    color: #fff;
+    font-weight: 400;
+    text-align: left;
+    display: block;
+  }
 
-    .explain {
-      text-align: left;
-      font-size: 4.267vw;
-      line-height: 6.4vw;
-      color: #a4a4a4;
-      word-break: keep-all;
-      font-weight: 400;
-      white-space: pre-wrap;
-    }
+  .explain {
+    text-align: left;
+    font-size: 4.267vw;
+    line-height: 6.4vw;
+    color: #a4a4a4;
+    word-break: keep-all;
+    font-weight: 400;
+    white-space: pre-wrap;
   }
 
   @media screen and (min-width: 1280px) {
-    padding: 138px 16px 176px;
+    padding: 190px 0px 136px;
 
-    > .title {
-      margin: 29px 0 79px;
-      font-size: 60px;
-      line-height: 85px;
+    .title {
+      margin: 0 0 108px;
+      font-size: 154px;
+      line-height: 164px;
 
       br {
         display: block;
@@ -76,34 +76,44 @@
     }
 
     .review_list {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 60px;
+      gap: 95px;
     }
 
-    li.review {
-      gap: 40px;
+    .review_item {
+      display: flex;
+      align-items: center;
+      gap: 170px;
 
-      &:not(:last-child) {
-        h3 {
-          &::after {
-            font-size: 110px;
-            right: -80px;
-            top: 44%;
-          }
+      > h3 {
+        margin-left: initial;
+        flex: 0 0 260px;
+        font-size: 154px;
+        line-height: 164px;
+        gap: 22px;
+        margin: 0;
+
+        img {
+          width: 44px;
+          height: 44px;
         }
       }
-
-      h3 {
-        font-size: 110px;
-      }
-
-      span {
-        font-size: 28px;
-      }
-
-      p {
-        font-size: 20px;
-      }
     }
+
+    .texts {
+      display: flex;
+      align-items: flex-start;
+      gap: 120px;
+    }
+
+    .item_title {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .explain {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
   }
 }
