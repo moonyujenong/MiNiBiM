@@ -31,16 +31,16 @@ function ClientReview() {
     });
 
     return () => {
-      anim.forEach(a => a.kill());
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      anim.forEach((a) => a.kill());
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
   }, []);
 
   return (
-    <div className={style.container} ref={countContainer}>
+    <div className={style.container}>
       <h3 className={style.title}>Our results</h3>
 
-      <ul className={style.review_list}>
+      <ul className={style.review_list} ref={countContainer}>
         {reviewList.map((item, index) => (
           <li className={style.review_item} key={item.id}>
             <h3 className={style.length}>
