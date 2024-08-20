@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/MiNiBiM/static/css/main.a0f5c2f3.css",
-    "main.js": "/MiNiBiM/static/js/main.59e6b76f.js",
-    "static/css/864.dc84c3bc.chunk.css": "/MiNiBiM/static/css/864.dc84c3bc.chunk.css",
-    "static/js/864.eacbddd7.chunk.js": "/MiNiBiM/static/js/864.eacbddd7.chunk.js",
+    "main.js": "/MiNiBiM/static/js/main.41371e61.js",
+    "static/css/864.ef96c04d.chunk.css": "/MiNiBiM/static/css/864.ef96c04d.chunk.css",
+    "static/js/864.b01133ff.chunk.js": "/MiNiBiM/static/js/864.b01133ff.chunk.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
-    "static/js/486.3266c12b.chunk.js": "/MiNiBiM/static/js/486.3266c12b.chunk.js",
+    "static/js/724.7c7a86d8.chunk.js": "/MiNiBiM/static/js/724.7c7a86d8.chunk.js",
     "static/media/floor_banner.png": "/MiNiBiM/static/media/floor_banner.f75dcf57d200fc338512.png",
     "static/media/sample-wordk-thumbnail.png": "/MiNiBiM/static/media/sample-wordk-thumbnail.1c506075cef36c919fc9.png",
     "static/media/sample-process-icon.png": "/MiNiBiM/static/media/sample-process-icon.f74e7ed6a5397e09eae7.png",
@@ -18,14 +18,14 @@
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
     "static/media/icon-line-arrow.svg": "/MiNiBiM/static/media/icon-line-arrow.56aaa681f459c85cabd726d569f63341.svg",
     "main.a0f5c2f3.css.map": "/MiNiBiM/static/css/main.a0f5c2f3.css.map",
-    "main.59e6b76f.js.map": "/MiNiBiM/static/js/main.59e6b76f.js.map",
-    "864.dc84c3bc.chunk.css.map": "/MiNiBiM/static/css/864.dc84c3bc.chunk.css.map",
-    "864.eacbddd7.chunk.js.map": "/MiNiBiM/static/js/864.eacbddd7.chunk.js.map",
+    "main.41371e61.js.map": "/MiNiBiM/static/js/main.41371e61.js.map",
+    "864.ef96c04d.chunk.css.map": "/MiNiBiM/static/css/864.ef96c04d.chunk.css.map",
+    "864.b01133ff.chunk.js.map": "/MiNiBiM/static/js/864.b01133ff.chunk.js.map",
     "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map",
-    "486.3266c12b.chunk.js.map": "/MiNiBiM/static/js/486.3266c12b.chunk.js.map"
+    "724.7c7a86d8.chunk.js.map": "/MiNiBiM/static/js/724.7c7a86d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0f5c2f3.css",
-    "static/js/main.59e6b76f.js"
+    "static/js/main.41371e61.js"
   ]
 }
