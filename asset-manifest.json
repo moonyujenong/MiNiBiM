@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/MiNiBiM/static/css/main.a0f5c2f3.css",
-    "main.js": "/MiNiBiM/static/js/main.6d3268dd.js",
-    "static/css/864.482f4b55.chunk.css": "/MiNiBiM/static/css/864.482f4b55.chunk.css",
-    "static/js/864.b01133ff.chunk.js": "/MiNiBiM/static/js/864.b01133ff.chunk.js",
+    "main.js": "/MiNiBiM/static/js/main.766544ca.js",
+    "static/css/560.61e14378.chunk.css": "/MiNiBiM/static/css/560.61e14378.chunk.css",
+    "static/js/560.dacce114.chunk.js": "/MiNiBiM/static/js/560.dacce114.chunk.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
     "static/js/724.7c7a86d8.chunk.js": "/MiNiBiM/static/js/724.7c7a86d8.chunk.js",
-    "static/media/floor_banner.png": "/MiNiBiM/static/media/floor_banner.f75dcf57d200fc338512.png",
+    "static/media/stone_video.mp4": "/MiNiBiM/static/media/stone_video.f9773f0976608000d8e6.mp4",
     "static/media/sample-wordk-thumbnail.png": "/MiNiBiM/static/media/sample-wordk-thumbnail.1c506075cef36c919fc9.png",
-    "static/media/sample-process-icon.png": "/MiNiBiM/static/media/sample-process-icon.f74e7ed6a5397e09eae7.png",
+    "static/media/process_icon_2.png": "/MiNiBiM/static/media/process_icon_2.e38b2a69ddb3576e8996.png",
+    "static/media/process_icon_5.png": "/MiNiBiM/static/media/process_icon_5.31c8d15ef3047757ba12.png",
+    "static/media/process_icon_3.png": "/MiNiBiM/static/media/process_icon_3.6a388b8a2ec517340518.png",
+    "static/media/process_icon_4.png": "/MiNiBiM/static/media/process_icon_4.6ed5d37768ac0ca13696.png",
+    "static/media/process_icon_1.png": "/MiNiBiM/static/media/process_icon_1.55d73d8196082f34e03e.png",
     "static/media/logo.svg": "/MiNiBiM/static/media/logo.77e35fa07efa1dc8b1f50564eb59f272.svg",
     "static/media/instagram.svg": "/MiNiBiM/static/media/instagram.ee43088437d35c43634da70b2ec76c56.svg",
     "static/media/twitter.svg": "/MiNiBiM/static/media/twitter.0e4c5361f16d02953c13ac9244ee101d.svg",
@@ -18,14 +22,14 @@
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
     "static/media/icon-line-arrow.svg": "/MiNiBiM/static/media/icon-line-arrow.56aaa681f459c85cabd726d569f63341.svg",
     "main.a0f5c2f3.css.map": "/MiNiBiM/static/css/main.a0f5c2f3.css.map",
-    "main.6d3268dd.js.map": "/MiNiBiM/static/js/main.6d3268dd.js.map",
-    "864.482f4b55.chunk.css.map": "/MiNiBiM/static/css/864.482f4b55.chunk.css.map",
-    "864.b01133ff.chunk.js.map": "/MiNiBiM/static/js/864.b01133ff.chunk.js.map",
+    "main.766544ca.js.map": "/MiNiBiM/static/js/main.766544ca.js.map",
+    "560.61e14378.chunk.css.map": "/MiNiBiM/static/css/560.61e14378.chunk.css.map",
+    "560.dacce114.chunk.js.map": "/MiNiBiM/static/js/560.dacce114.chunk.js.map",
     "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map",
     "724.7c7a86d8.chunk.js.map": "/MiNiBiM/static/js/724.7c7a86d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0f5c2f3.css",
-    "static/js/main.6d3268dd.js"
+    "static/js/main.766544ca.js"
   ]
 }
