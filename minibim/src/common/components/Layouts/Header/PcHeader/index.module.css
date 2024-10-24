@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 54px;
+  -webkit-backdrop-filter: blur(10px);
 
   .logo_link {
     h1 {
