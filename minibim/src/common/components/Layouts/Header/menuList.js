@@ -7,7 +7,7 @@ export const menuList = [
   {
     id:"2",
     name:"About",
-    src:""
+    src:"/about"
   },
   {
     id:"3",
