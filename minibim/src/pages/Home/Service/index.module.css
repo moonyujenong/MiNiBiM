@@ -44,7 +44,7 @@
     .list_item {
       padding: 72px 0 100px;
       position: absolute;
-      height: 100%;
+      height: calc(100% - 300px);
       width: 100%;
 
       .inner_box {

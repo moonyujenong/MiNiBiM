@@ -19,10 +19,6 @@ function Service() {
 
   return (
     <div className={style.container}>
-      <h2 className={style.title} {...(screenSize < 1280 && { 'data-aos': 'fade-up' })}>
-        Service
-      </h2>
-
       {screenSize >= 1280 ? <PcService /> : <MobileService />}
     </div>
   );
@@ -32,20 +28,26 @@ export default Service;
 
 export function MobileService() {
   return (
-    <div className={style.service_list}>
-      {service.map((item) => (
-        <div
-          className={style.list_item}
-          key={item.id}
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-duration={item.duration}
-        >
-          <h3 className={style.item_title}>{item.title}</h3>
-          <p className={style.item_desc}>{item.desc}</p>
-        </div>
-      ))}
-    </div>
+    <>
+      <h2 className={style.title} data-aos="fade-up" data-aos-offset="200">
+        Service
+      </h2>
+
+      <div className={style.service_list}>
+        {service.map((item) => (
+          <div
+            className={style.list_item}
+            key={item.id}
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-duration={item.duration}
+          >
+            <h3 className={style.item_title}>{item.title}</h3>
+            <p className={style.item_desc}>{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
 
@@ -86,15 +88,21 @@ export function PcService() {
   );
 
   return (
-    <div className={style.service_list} ref={wrapEl}>
-      {service.map((item, index) => (
-        <div className={style.list_item} key={item.id}>
-          <div className={style.inner_box} ref={(el) => (targetEls.current[index] = el)}>
-            <h3 className={style.item_title}>{item.title}</h3>
-            <p className={style.item_desc}>{item.desc}</p>
+    <div ref={wrapEl}>
+      <h2 className={style.title}>
+        Service
+      </h2>
+
+      <div className={style.service_list}>
+        {service.map((item, index) => (
+          <div className={style.list_item} key={item.id}>
+            <div className={style.inner_box} ref={(el) => (targetEls.current[index] = el)}>
+              <h3 className={style.item_title}>{item.title}</h3>
+              <p className={style.item_desc}>{item.desc}</p>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

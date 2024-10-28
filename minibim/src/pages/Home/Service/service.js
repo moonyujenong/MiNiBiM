@@ -8,7 +8,7 @@ export const service = [
   {
     id: 1,
     title: 'Brand Design',
-    desc: 'UX Design focuses on enhancing user satisfaction by improving the usability, accessibility, and overall experience when interacting with a product.',
+    desc: '고객사의 브랜드가 지닌 본질을 시각적 언어로 표현하여, 단순한 디자인을 넘어 강력한 브랜드 경험을 제공합니다. 브랜드의 이야기를 효과적으로 전달하고, 고객과의 감성적 연결을 강화하는 브랜드 디자인을 만듭니다.',
     duration: '1200',
   },
   {
