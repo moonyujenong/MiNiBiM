@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MiNiBiM/static/css/main.237fdd91.css",
-    "main.js": "/MiNiBiM/static/js/main.81c995fa.js",
+    "main.js": "/MiNiBiM/static/js/main.8cc68d45.js",
     "static/css/875.352b9e7b.chunk.css": "/MiNiBiM/static/css/875.352b9e7b.chunk.css",
     "static/js/875.07f4b9dd.chunk.js": "/MiNiBiM/static/js/875.07f4b9dd.chunk.js",
     "static/css/142.aa62d013.chunk.css": "/MiNiBiM/static/css/142.aa62d013.chunk.css",
     "static/js/142.5cc41337.chunk.js": "/MiNiBiM/static/js/142.5cc41337.chunk.js",
     "static/js/453.41313bb7.chunk.js": "/MiNiBiM/static/js/453.41313bb7.chunk.js",
     "static/js/321.a8c0486c.chunk.js": "/MiNiBiM/static/js/321.a8c0486c.chunk.js",
-    "static/js/811.0f753de1.chunk.js": "/MiNiBiM/static/js/811.0f753de1.chunk.js",
+    "static/js/811.228c6705.chunk.js": "/MiNiBiM/static/js/811.228c6705.chunk.js",
     "static/media/floor-banner.png": "/MiNiBiM/static/media/floor-banner.ac397bed99398355d0d0.png",
     "static/media/about-visual-banner.png": "/MiNiBiM/static/media/about-visual-banner.592640a79ea46b07b585.png",
     "static/media/stone_video.mp4": "/MiNiBiM/static/media/stone_video.f9773f0976608000d8e6.mp4",
@@ -31,17 +31,17 @@
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
     "static/media/icon-line-arrow.svg": "/MiNiBiM/static/media/icon-line-arrow.56aaa681f459c85cabd726d569f63341.svg",
     "main.237fdd91.css.map": "/MiNiBiM/static/css/main.237fdd91.css.map",
-    "main.81c995fa.js.map": "/MiNiBiM/static/js/main.81c995fa.js.map",
+    "main.8cc68d45.js.map": "/MiNiBiM/static/js/main.8cc68d45.js.map",
     "875.352b9e7b.chunk.css.map": "/MiNiBiM/static/css/875.352b9e7b.chunk.css.map",
     "875.07f4b9dd.chunk.js.map": "/MiNiBiM/static/js/875.07f4b9dd.chunk.js.map",
     "142.aa62d013.chunk.css.map": "/MiNiBiM/static/css/142.aa62d013.chunk.css.map",
     "142.5cc41337.chunk.js.map": "/MiNiBiM/static/js/142.5cc41337.chunk.js.map",
     "453.41313bb7.chunk.js.map": "/MiNiBiM/static/js/453.41313bb7.chunk.js.map",
     "321.a8c0486c.chunk.js.map": "/MiNiBiM/static/js/321.a8c0486c.chunk.js.map",
-    "811.0f753de1.chunk.js.map": "/MiNiBiM/static/js/811.0f753de1.chunk.js.map"
+    "811.228c6705.chunk.js.map": "/MiNiBiM/static/js/811.228c6705.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.237fdd91.css",
-    "static/js/main.81c995fa.js"
+    "static/js/main.8cc68d45.js"
   ]
 }
