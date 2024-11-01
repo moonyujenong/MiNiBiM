@@ -15,5 +15,5 @@ module.exports = {
     postcss: {
       mode: 'file',
     },
-  },
+  }
 };
