@@ -1,9 +1,12 @@
 import { menuList } from '../menuList';
 import logo from 'images/common/logo.svg';
 import style from './index.module.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function PcHeader() {
+  const location = useLocation();
+  console.log(1111, location)
+
   return (
     <div className={style.container}>
       <Link to={'/'} className={style.logo_link}>
@@ -13,7 +16,7 @@ function PcHeader() {
 
       <ul className={style.menu_list}>
         {menuList.map((item) => (
-          <li className={style.menu_item} key={item.id}>
+          <li className={`${style.menu_item} ${location.pathname.includes(item.src) ? style.active : ""}`} key={item.id}>
             <Link to={item.src}>{item.name}</Link>
           </li>
         ))}

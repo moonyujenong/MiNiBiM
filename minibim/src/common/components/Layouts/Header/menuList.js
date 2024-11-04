@@ -12,7 +12,7 @@ export const menuList = [
   {
     id:"3",
     name:"Contact",
-    src:""
+    src:"/contact"
   },
 ]
 

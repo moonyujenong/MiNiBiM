@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { doc, getDoc } from "firebase/firestore/lite";
 import { useParams } from "react-router-dom";
 import NoData from "../../../common/components/NoData";
+import Layouts from "../../../common/components/Layouts";
 
 function WorkDetail () {
     const [detailPost, setDetailPost] = useState();
@@ -14,7 +15,6 @@ function WorkDetail () {
         const docRef = doc(database, "crepeWorks", params.id);
         const docSnap = await getDoc(docRef);
 
-        // return docSnap.exists() ? docSnap.data() : <NoData />;
         return docSnap.data();
     }
 
@@ -25,16 +25,18 @@ function WorkDetail () {
     }, []);
 
     return (
-        <div className={style.container}>
-            {detailPost ? 
-                <>
-                    {detailPost.title}
-                    {detailPost.category}
-                </>
-                :
-                <NoData />
-            }
-        </div>
+        <Layouts>
+            <div className={style.container}>
+                {detailPost ? 
+                    <>
+                        {detailPost.title}
+                        {detailPost.category}
+                    </>
+                    :
+                    <NoData />
+                }
+            </div>
+        </Layouts>
     )
 }
 
