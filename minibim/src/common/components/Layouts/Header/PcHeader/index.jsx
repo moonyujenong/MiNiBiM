@@ -5,7 +5,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 function PcHeader() {
   const location = useLocation();
-  console.log(1111, location)
 
   return (
     <div className={style.container}>
