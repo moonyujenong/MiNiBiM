@@ -28,7 +28,7 @@ function ClientReview() {
           end: 'top 10%',
         },
       });
-    });
+    }, []);
 
     return () => {
       anim.forEach((a) => a.kill());

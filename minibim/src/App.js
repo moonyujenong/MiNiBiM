@@ -4,6 +4,8 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
+const Works = lazy(() => import("./pages/Works"));
+const WorkDetail = lazy(() => import("./pages/Works/WorkDetail"));
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/works/detail/:id" element={<WorkDetail />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
