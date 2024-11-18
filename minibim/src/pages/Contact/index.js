@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { contactList } from './contactList';
 import style from './index.module.css';
+import Layouts from '../../common/components/Layouts';
 
 function Contact() {
   const fileRef = useRef();
@@ -16,8 +17,8 @@ function Contact() {
   };
 
   return (
-    <div className={style.container}>
-      <div className={style.wrap}>
+    <Layouts>
+      <div className={style.container}>
         <h3 className={style.title}>Contact</h3>
 
         <form action="">
@@ -64,7 +65,7 @@ function Contact() {
           </button>
         </form>
       </div>
-    </div>
+    </Layouts>
   );
 }
 

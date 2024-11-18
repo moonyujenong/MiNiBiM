@@ -1,16 +1,11 @@
 .container {
-  padding: 60px 16px;
+  padding: 74px 16px 72px;
   font-family: 'Pretendard';
-
-  .wrap {
-    width: 100%;
-    max-width: 1568px;
-    margin: 0 auto;
-  }
 
   .title {
     color: #fff;
     font-size: 32px;
+    font-weight: 400;
     line-height: 52px;
     margin-bottom: 59px;
     letter-spacing: 3px;
