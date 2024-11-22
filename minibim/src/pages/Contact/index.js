@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { contactList } from './contactList';
 import style from './index.module.css';
 import Layouts from '../../common/components/Layouts';
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const fileRef = useRef();
@@ -17,41 +18,72 @@ function Contact() {
   };
   
   //이메일
-  const [company, setCompany] = useState('');
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [call, setCall] = useState('');
-  const [site, setSite] = useState('');
-  const [attachment, setAttachment] = useState('');
-  const [message, setMessage] = useState('');
+  const [formData, setFormData] = useState({
+    company: '',
+    name: '',
+    email: '',
+    call: '',
+    site: '',
+    message: '',
+  });
 
-  const templateParams = {
-    from_company : company,
-    from_name : name,
-    from_email : email,
-    from_call : call,
-    from_site : site,
-    from_attachment : attachment,
-    from_message : message
-  }
+  const handleEmailSubmit = (e) => {
+    e.preventDefault();
 
-  // if(!company || !name || !email || !call || !message) {
-  //   alert('모든 필드를 채워주세요.');
-  //   return;
-  // }
+    const templateParams = {
+      from_company : formData.company,
+      from_name : formData.name,
+      from_email : formData.email,
+      from_call : formData.call,
+      from_site : formData.site,
+      from_attachment : formData.attachment,
+      from_message : formData.message
+    }
+
+    if(!formData.company || !formData.name || !formData.email || !formData.call || !formData.message) {
+      alert('필수 항목을 채워주세요.');
+      return;
+    }
+
+    emailjs
+    .send(process.env.REACT_APP_EMAIL_SERVICE_ID, process.env.REACT_APP_EMAIL_TEMPLATE_ID, templateParams, process.env.REACT_APP_EMAIL_USER_ID)
+    .then(
+    (response) => {
+        console.log('Email sent successfully', response);
+        // setPopupType('success');
+    },
+    (error) => {
+        console.error('Error sending email', error);
+        // setPopupType('error');
+        return;
+    }
+    );
+  };
+
+
+  const emailHandleChange = (e) => {
+    const {name, value} = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]:value
+    }));
+  };
+
+
+
 
   return (
     <Layouts>
       <div className={style.container}>
         <h3 className={style.title}>Contact</h3>
 
-        <form action="">
+        <form onSubmit={handleEmailSubmit}>
           <div className={style.enter_list}>
             {contactList.map((item) => (
               <div className={style.form_box} key={item.id}>
                 <h3 className={`${style.category} ${item.requir === true ? style.requir : ''}`}>{item.name}</h3>
                 {item.id === 6 ? (
-                  <textarea placeholder={item.placeHolder} name='message' value={message} className={style.user_text_box}></textarea>
+                  <textarea placeholder={item.placeHolder} name='message' value={formData.message} onChange={emailHandleChange}  className={style.user_text_box}></textarea>
                 ) : (
                   <>
                     {item.type === 'file' ? (
@@ -76,7 +108,7 @@ function Contact() {
                         </button>
                       </label>
                     ) : (
-                      <input type={item.type} name={item.category}  placeholder={item.placeHolder} className={style.user_input} />
+                      <input type={item.type} name={item.category} value={formData[item.category] || ''} onChange={emailHandleChange}  placeholder={item.placeHolder} className={style.user_input} />
                     )}
                   </>
                 )}
