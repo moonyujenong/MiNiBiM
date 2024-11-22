@@ -15,6 +15,30 @@ function Contact() {
     const fileName = e.target.files[0].name;
     setIsSelectFile(fileName);
   };
+  
+  //이메일
+  const [company, setCompany] = useState('');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [call, setCall] = useState('');
+  const [site, setSite] = useState('');
+  const [attachment, setAttachment] = useState('');
+  const [message, setMessage] = useState('');
+
+  const templateParams = {
+    from_company : company,
+    from_name : name,
+    from_email : email,
+    from_call : call,
+    from_site : site,
+    from_attachment : attachment,
+    from_message : message
+  }
+
+  if(!company || !name || !email || !call || !message) {
+    alert('모든 필드를 채워주세요.');
+    return;
+  }
 
   return (
     <Layouts>
@@ -27,7 +51,7 @@ function Contact() {
               <div className={style.form_box} key={item.id}>
                 <h3 className={`${style.category} ${item.requir === true ? style.requir : ''}`}>{item.name}</h3>
                 {item.id === 6 ? (
-                  <textarea placeholder={item.placeHolder} className={style.user_text_box}></textarea>
+                  <textarea placeholder={item.placeHolder} name='message' value={message} className={style.user_text_box}></textarea>
                 ) : (
                   <>
                     {item.type === 'file' ? (
@@ -52,7 +76,7 @@ function Contact() {
                         </button>
                       </label>
                     ) : (
-                      <input type={item.type} placeholder={item.placeHolder} className={style.user_input} />
+                      <input type={item.type} name={item.name}  placeholder={item.placeHolder} className={style.user_input} />
                     )}
                   </>
                 )}

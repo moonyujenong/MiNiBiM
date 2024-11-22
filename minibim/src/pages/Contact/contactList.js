@@ -5,6 +5,7 @@ export const contactList = [
     type: 'text',
     requir: true,
     placeHolder: '기관 이름을 입력해 주세요',
+    name: 'company'
   },
   {
     id: 1,
@@ -12,6 +13,7 @@ export const contactList = [
     type: 'text',
     requir: true,
     placeHolder: '김미니/마케팅 팀장',
+    name:'name'
   },
   {
     id: 2,
@@ -19,6 +21,7 @@ export const contactList = [
     type: 'text',
     requir: true,
     placeHolder: 'mini@gmail.com',
+    name:'email'
   },
   {
     id: 3,
@@ -26,6 +29,7 @@ export const contactList = [
     type: 'number',
     requir: true,
     placeHolder: '010-0000-0000',
+    name:"call"
   },
   {
     id: 4,
@@ -33,6 +37,7 @@ export const contactList = [
     type: 'text',
     requir: false,
     placeHolder: '사이트 주소를 입력해 주세요',
+    name:'site'
   },
   {
     id: 5,
@@ -40,11 +45,13 @@ export const contactList = [
     type: 'file',
     requir: false,
     placeHolder: '파일을 선택해 주세요',
+    name:"attachment"
   },
   {
     id: 6,
     name: '문의사항',
     requir: true,
     placeHolder: '문의사항을 입력해 주세요',
+    name:'message'
   },
 ];
