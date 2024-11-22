@@ -29,7 +29,7 @@ export const contactList = [
   },
   {
     id: 4,
-    name: '기존 사이트 주소 (있는 경우만 입력해 주세요.)',
+    name: '기존 사이트 주소 (있는 경우만 입력)',
     type: 'text',
     requir: false,
     placeHolder: '사이트 주소를 입력해 주세요',
