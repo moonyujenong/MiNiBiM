@@ -35,10 +35,10 @@ function Contact() {
     from_message : message
   }
 
-  if(!company || !name || !email || !call || !message) {
-    alert('모든 필드를 채워주세요.');
-    return;
-  }
+  // if(!company || !name || !email || !call || !message) {
+  //   alert('모든 필드를 채워주세요.');
+  //   return;
+  // }
 
   return (
     <Layouts>
@@ -76,7 +76,7 @@ function Contact() {
                         </button>
                       </label>
                     ) : (
-                      <input type={item.type} name={item.name}  placeholder={item.placeHolder} className={style.user_input} />
+                      <input type={item.type} name={item.category}  placeholder={item.placeHolder} className={style.user_input} />
                     )}
                   </>
                 )}
