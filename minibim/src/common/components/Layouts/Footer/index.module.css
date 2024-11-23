@@ -1,5 +1,5 @@
 .container {
-  background-color: #0A0A0A;
+  background-color: #141414;
 
   .wrap {
     width: 100%;
@@ -27,8 +27,10 @@
     li {
       color: #898989;
       font-size: 14px;
+      font-weight: 400;
       position: relative;
       width: fit-content;
+      line-height: normal;
 
       &:first-child {
         width: 100%;
@@ -72,7 +74,7 @@
 
   @media screen and (min-width: 1280px) {
     .wrap {
-      padding: 80px 16px 89px;
+      padding: 80px 54px 89px;
     }
 
     img.logo {
@@ -105,9 +107,8 @@
     }
 
     .sns_box {
-      top: auto;
-      bottom: 84px;
-      right: 15px;
+      top: 80px;
+      right: 54px;
 
       a {
         width: 44px;
