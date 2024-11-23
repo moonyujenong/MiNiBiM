@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/MiNiBiM/static/css/main.237fdd91.css",
-    "main.js": "/MiNiBiM/static/js/main.cb6ba595.js",
+    "main.js": "/MiNiBiM/static/js/main.1bbcaaa6.js",
     "static/css/177.89d45061.chunk.css": "/MiNiBiM/static/css/177.89d45061.chunk.css",
     "static/js/177.4543eae6.chunk.js": "/MiNiBiM/static/js/177.4543eae6.chunk.js",
     "static/css/325.539e17ed.chunk.css": "/MiNiBiM/static/css/325.539e17ed.chunk.css",
     "static/js/325.d8c0afb9.chunk.js": "/MiNiBiM/static/js/325.d8c0afb9.chunk.js",
     "static/css/366.d89d51de.chunk.css": "/MiNiBiM/static/css/366.d89d51de.chunk.css",
-    "static/js/366.7d16bc4e.chunk.js": "/MiNiBiM/static/js/366.7d16bc4e.chunk.js",
+    "static/js/366.63ab7454.chunk.js": "/MiNiBiM/static/js/366.63ab7454.chunk.js",
     "static/css/162.4786159e.chunk.css": "/MiNiBiM/static/css/162.4786159e.chunk.css",
-    "static/js/162.ae5415e1.chunk.js": "/MiNiBiM/static/js/162.ae5415e1.chunk.js",
+    "static/js/162.0be38f68.chunk.js": "/MiNiBiM/static/js/162.0be38f68.chunk.js",
     "static/css/9.95675dc8.chunk.css": "/MiNiBiM/static/css/9.95675dc8.chunk.css",
     "static/js/9.921d6aea.chunk.js": "/MiNiBiM/static/js/9.921d6aea.chunk.js",
     "static/js/787.2a93110a.chunk.js": "/MiNiBiM/static/js/787.2a93110a.chunk.js",
-    "static/js/95.0e7bdf66.chunk.js": "/MiNiBiM/static/js/95.0e7bdf66.chunk.js",
+    "static/js/95.68f5a471.chunk.js": "/MiNiBiM/static/js/95.68f5a471.chunk.js",
     "static/js/724.64b79ad5.chunk.js": "/MiNiBiM/static/js/724.64b79ad5.chunk.js",
     "static/js/755.0343823d.chunk.js": "/MiNiBiM/static/js/755.0343823d.chunk.js",
     "static/media/floor-banner.png": "/MiNiBiM/static/media/floor-banner.ac397bed99398355d0d0.png",
@@ -38,24 +38,24 @@
     "static/media/close.svg": "/MiNiBiM/static/media/close.966d4d7bb91ceee2ba22823826ede15c.svg",
     "static/media/icon-line-arrow.svg": "/MiNiBiM/static/media/icon-line-arrow.56aaa681f459c85cabd726d569f63341.svg",
     "main.237fdd91.css.map": "/MiNiBiM/static/css/main.237fdd91.css.map",
-    "main.cb6ba595.js.map": "/MiNiBiM/static/js/main.cb6ba595.js.map",
+    "main.1bbcaaa6.js.map": "/MiNiBiM/static/js/main.1bbcaaa6.js.map",
     "177.89d45061.chunk.css.map": "/MiNiBiM/static/css/177.89d45061.chunk.css.map",
     "177.4543eae6.chunk.js.map": "/MiNiBiM/static/js/177.4543eae6.chunk.js.map",
     "325.539e17ed.chunk.css.map": "/MiNiBiM/static/css/325.539e17ed.chunk.css.map",
     "325.d8c0afb9.chunk.js.map": "/MiNiBiM/static/js/325.d8c0afb9.chunk.js.map",
     "366.d89d51de.chunk.css.map": "/MiNiBiM/static/css/366.d89d51de.chunk.css.map",
-    "366.7d16bc4e.chunk.js.map": "/MiNiBiM/static/js/366.7d16bc4e.chunk.js.map",
+    "366.63ab7454.chunk.js.map": "/MiNiBiM/static/js/366.63ab7454.chunk.js.map",
     "162.4786159e.chunk.css.map": "/MiNiBiM/static/css/162.4786159e.chunk.css.map",
-    "162.ae5415e1.chunk.js.map": "/MiNiBiM/static/js/162.ae5415e1.chunk.js.map",
+    "162.0be38f68.chunk.js.map": "/MiNiBiM/static/js/162.0be38f68.chunk.js.map",
     "9.95675dc8.chunk.css.map": "/MiNiBiM/static/css/9.95675dc8.chunk.css.map",
     "9.921d6aea.chunk.js.map": "/MiNiBiM/static/js/9.921d6aea.chunk.js.map",
     "787.2a93110a.chunk.js.map": "/MiNiBiM/static/js/787.2a93110a.chunk.js.map",
-    "95.0e7bdf66.chunk.js.map": "/MiNiBiM/static/js/95.0e7bdf66.chunk.js.map",
+    "95.68f5a471.chunk.js.map": "/MiNiBiM/static/js/95.68f5a471.chunk.js.map",
     "724.64b79ad5.chunk.js.map": "/MiNiBiM/static/js/724.64b79ad5.chunk.js.map",
     "755.0343823d.chunk.js.map": "/MiNiBiM/static/js/755.0343823d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.237fdd91.css",
-    "static/js/main.cb6ba595.js"
+    "static/js/main.1bbcaaa6.js"
   ]
 }
